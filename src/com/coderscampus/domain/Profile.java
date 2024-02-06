@@ -3,11 +3,14 @@ package com.coderscampus.domain;
 public class Profile {
 	private Integer id;
 	private String name;
-	private String url;
 	
 	public Integer getId() {
 		return id
 	}
+	//
+	//changed this comment
 	
-	//blah blah blah more code
+	private Integer id2;
+	
+	//blah blah more code
 }
