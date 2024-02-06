@@ -1,16 +1,28 @@
 package com.coderscampus.domain;
 
+import java.time.LocalDate;
+
 public class Profile {
 	private Integer id;
-	private String name;
+	private String profileName;
+	private LocalDate createdDate;
 	
-	public Integer getId() {
-		return id
+	public LocalDate getCreatedDate() {
+		return createdDate;
+	}	
+	public void setCreatedDate(LocalDate createdDate) {
+		this.createdDate = createdDate;
 	}
-	//
-	//changed this comment
-	
-	private Integer id2;
-	
-	//blah blah more code
+	public Integer getId() {
+		return id;
+	}
+	public void setId(Integer id) {
+		this.id = id;
+	}
+	public String getProfileName() {
+		return profileName;
+	}
+	public void setProfileName(String name) {
+		this.profileName = name;
+	}
 }
